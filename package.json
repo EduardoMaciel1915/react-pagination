@@ -6,17 +6,39 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm version patch && npm publish"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.18",
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@types/node": "18.15.12",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "framer-motion": "^10.12.4",
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMaciel1915/react-pagination.git"
+  },
+  "keywords": [
+    "pagination"
+  ],
+  "author": "eduardo_maciel <eduardo.maciel.satos13@gmail.com.br>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/EduardoMaciel1915/react-pagination/issues"
+  },
+  "homepage": "https://github.com/EduardoMaciel1915/react-pagination#readme"
 }
