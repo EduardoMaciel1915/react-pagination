@@ -1,7 +1,7 @@
 {
-  "name": "react-pagination",
-  "version": "0.1.4",
-  "private": true,
+  "name": "react-pagination-mblabs",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -35,7 +35,7 @@
   "keywords": [
     "pagination"
   ],
-  "author": "eduardo_maciel <eduardo.maciel.satos13@gmail.com.br>",
+  "author": "eduardo_maciel <eduardo.maciel.santos13@gmail.com.br>",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/EduardoMaciel1915/react-pagination/issues"
